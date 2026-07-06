@@ -12,11 +12,14 @@ Pick interesting crossword clues and send them to Anki as flashcards
 ## Usage
 
 ```sh
-./puz2anki.py nyt --push
+./puz2anki.py nyt                       # today's NYT
+./puz2anki.py nyt --push                # push straight into Anki
+./puz2anki.py nyt --date 2026-07-04     # a past puzzle (also: "last friday")
+./puz2anki.py tny                       # latest New Yorker
+./puz2anki.py path/to/puzzle.puz        # a local .puz file
 ```
 
-Downloads today's NYT, lists every clue, you type the ones you want (`36A 24A`),
-they go into Anki.
+Lists every clue; type the ones you want (`36A 24A`, or `all`).
 
 ## Flags
 
