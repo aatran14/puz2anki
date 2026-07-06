@@ -14,7 +14,8 @@ Pick interesting crossword clues and send them to Anki as flashcards
 ```sh
 ./puz2anki.py nyt                       # today's NYT
 ./puz2anki.py nyt --push                # push straight into Anki
-./puz2anki.py nyt --date 2026-07-04     # a past puzzle (also: "last friday")
+./puz2anki.py nyt --date 2026-07-04     # a past puzzle
+./puz2anki.py nyt --date 2026-07-04 --push   # past puzzle, pushed to Anki
 ./puz2anki.py tny                       # latest New Yorker
 ./puz2anki.py path/to/puzzle.puz        # a local .puz file
 ```
